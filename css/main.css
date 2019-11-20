@@ -50,3 +50,11 @@ body {
   left: 2.2rem;
   top: -2.344rem;
 }
+
+.robot:hover .robot-head-right {
+  left: 12rem;
+}
+
+.robot:hover .robot-head-left {
+  left: .2rem;
+}
