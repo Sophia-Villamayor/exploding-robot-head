@@ -15,9 +15,13 @@ body {
 
 .banner {
   background-color: #2b3851;
+  padding-top: 3rem;
 }
 
 .robot {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   width: 320px;
 }
@@ -30,6 +34,7 @@ body {
   width: 46px;
   position: absolute;
   left: 8.5rem;
+  top: 2rem;
 }
 
 .robot-head-right {
@@ -38,9 +43,10 @@ body {
   left: 10rem;
   top: -2.344rem;
 }
+
 .robot-head-left {
   position: absolute;
   width: 125px;
   left: 2.2rem;
-  top:-2.344rem;
+  top: -2.344rem;
 }
